@@ -33,8 +33,19 @@
 
 * Tasty hash syntax
 
-The downside is that the implementation still needs to be as
-described in - module SomethingHelper
+The downside is that the implementation still needs to be:
+
+      module SomethingHelper
+        def link_to_edit_something(something)
+          title = "Edit record for #{record.owner}"
+          path = edit_something_path(something)
+          
+          return link_to('Edit', path, :class => 'edit round', :title => title)
+        end
+      end
+
+
+Or does it?
 
 
 == Beyond 2000
