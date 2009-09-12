@@ -4,7 +4,7 @@
 
 * Ever seen code like this?
 
-      <%= return link_to('Edit', edit_something_path(something), :class => 'edit round', :title => "Edit record for #{record.owner}") %>
+      <%= link_to('Edit', edit_something_path(something), :class => 'edit round', :title => "Edit record for #{record.owner}") %>
 
 * Before you know it your templates start looking like php, and God knows we don't need that.
 * Obviously the best is to move it into a helper
