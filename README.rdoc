@@ -58,6 +58,14 @@ Or does it?
 
 It would be nicer if the implementation code was sexier.
 
+
+== Fat model auth
+
+This gem is designed to be used with the Fat model auth gem, giving you the following pattern:
+
+      link_to :edit => @cabbage if allowed_to? :edit => @cabbage
+
+
 Got ideas? fork it or send me a message.
 
 Copyright (c) 2009 [Brent Greeff], released under the MIT license
