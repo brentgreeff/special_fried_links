@@ -4,7 +4,6 @@
 
       gem install special_fried_links
 
-
       (or use bundler)
 
 == Links but with extra tasty bits
