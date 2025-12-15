@@ -1,7 +1,7 @@
-> [!CAUTION]
+> [\!CAUTION]
 > This repository is deprecated and no longer maintained.
 
-= Special Fried Links
+# Special Fried Links
 
 ## Install
 
